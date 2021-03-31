@@ -1,0 +1,9 @@
+GitHubAPIExample/Pods/
+
+GitHubAPIExample/xcuserdata/
+
+GitHubAPIExample/*.xcscmblueprint
+GitHubAPIExample/*.xccheckout
+
+GitHubAPIExample/.build/
+
