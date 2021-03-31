@@ -9,7 +9,7 @@ public enum AppConfigs: String {
     case gitHubAPIUrl = "https://api.github.com"
     case gitHubUrl = "https://github.com"
     
-    case clientId = "Iv1.49fc4d15d33a745e"
-    case clientSecret = "5177dffd4b365847b3e9f581a1f0b99f1666f7f5"
+    case clientId = "Iv1.0881bfd46c1e7110"
+    case clientSecret = "6b79f3eb26b9bfa16938c6fd0bb8bc778b00c656"
 }
 

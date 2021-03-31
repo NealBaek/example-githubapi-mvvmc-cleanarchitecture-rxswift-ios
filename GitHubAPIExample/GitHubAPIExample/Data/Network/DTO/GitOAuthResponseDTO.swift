@@ -24,3 +24,4 @@ extension GitOAuthResponseDTO{
         return .init(accessToken: accessToken, tokenType: tokenType)
     }
 }
+ 
