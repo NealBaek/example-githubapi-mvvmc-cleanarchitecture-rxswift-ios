@@ -36,6 +36,22 @@
 		49FE78932614589E003944EC /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78922614589E003944EC /* UserDefaults.swift */; };
 		49FE7898261458F1003944EC /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE7897261458F1003944EC /* WebAPI.swift */; };
 		49FE789D26145909003944EC /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE789C26145909003944EC /* ReachabilityManager.swift */; };
+		49FE78A7261459D4003944EC /* SearchGitUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78A6261459D4003944EC /* SearchGitUserUseCase.swift */; };
+		49FE78AF261459F3003944EC /* FetchGitRepoListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78AE261459F3003944EC /* FetchGitRepoListUseCase.swift */; };
+		49FE78B4261459F9003944EC /* FetchGitOAuthUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78B3261459F9003944EC /* FetchGitOAuthUseCase.swift */; };
+		49FE78B926145A18003944EC /* GitUserRepositoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78B826145A18003944EC /* GitUserRepositoryDelegate.swift */; };
+		49FE78BE26145A2D003944EC /* GitRepoRepositoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78BD26145A2D003944EC /* GitRepoRepositoryDelegate.swift */; };
+		49FE78C326145A39003944EC /* GitOAuthRepositoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78C226145A39003944EC /* GitOAuthRepositoryDelegate.swift */; };
+		49FE78C826145A48003944EC /* GitUserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78C726145A48003944EC /* GitUserEntity.swift */; };
+		49FE78CD26145A4E003944EC /* GitRepoEntiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78CC26145A4E003944EC /* GitRepoEntiry.swift */; };
+		49FE78D226145A55003944EC /* GitOAuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78D126145A55003944EC /* GitOAuthEntity.swift */; };
+		49FE78E326145AA2003944EC /* GitUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78E226145AA2003944EC /* GitUserRepository.swift */; };
+		49FE78E826145AAA003944EC /* GitRepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78E726145AAA003944EC /* GitRepoRepository.swift */; };
+		49FE78ED26145AAF003944EC /* GitOAuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78EC26145AAF003944EC /* GitOAuthRepository.swift */; };
+		49FE78F226145ADB003944EC /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78F126145ADB003944EC /* GitHubAPI.swift */; };
+		49FE78F726145AE8003944EC /* SearchGitUserResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78F626145AE8003944EC /* SearchGitUserResponseDTO.swift */; };
+		49FE78FC26145AEE003944EC /* GitRepoListResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE78FB26145AEE003944EC /* GitRepoListResponseDTO.swift */; };
+		49FE790126145AF3003944EC /* GitOAuthResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE790026145AF3003944EC /* GitOAuthResponseDTO.swift */; };
 		8DD3D00A96DC63734E26D163 /* Pods_GitHubAPIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5E6E5C8BB3CF1CAD8D587C /* Pods_GitHubAPIExample.framework */; };
 		BAD14CF25DEF12458AD31136 /* Pods_GitHubAPIExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C74897DA05807AD12EC4887 /* Pods_GitHubAPIExampleTests.framework */; };
 		E126D60D0D2B83C8EB8462D8 /* Pods_GitHubAPIExample_GitHubAPIExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE73329C70370FA6767FC18 /* Pods_GitHubAPIExample_GitHubAPIExampleUITests.framework */; };
@@ -97,6 +113,22 @@
 		49FE78922614589E003944EC /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		49FE7897261458F1003944EC /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
 		49FE789C26145909003944EC /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		49FE78A6261459D4003944EC /* SearchGitUserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitUserUseCase.swift; sourceTree = "<group>"; };
+		49FE78AE261459F3003944EC /* FetchGitRepoListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGitRepoListUseCase.swift; sourceTree = "<group>"; };
+		49FE78B3261459F9003944EC /* FetchGitOAuthUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGitOAuthUseCase.swift; sourceTree = "<group>"; };
+		49FE78B826145A18003944EC /* GitUserRepositoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserRepositoryDelegate.swift; sourceTree = "<group>"; };
+		49FE78BD26145A2D003944EC /* GitRepoRepositoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoRepositoryDelegate.swift; sourceTree = "<group>"; };
+		49FE78C226145A39003944EC /* GitOAuthRepositoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOAuthRepositoryDelegate.swift; sourceTree = "<group>"; };
+		49FE78C726145A48003944EC /* GitUserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserEntity.swift; sourceTree = "<group>"; };
+		49FE78CC26145A4E003944EC /* GitRepoEntiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoEntiry.swift; sourceTree = "<group>"; };
+		49FE78D126145A55003944EC /* GitOAuthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOAuthEntity.swift; sourceTree = "<group>"; };
+		49FE78E226145AA2003944EC /* GitUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserRepository.swift; sourceTree = "<group>"; };
+		49FE78E726145AAA003944EC /* GitRepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoRepository.swift; sourceTree = "<group>"; };
+		49FE78EC26145AAF003944EC /* GitOAuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOAuthRepository.swift; sourceTree = "<group>"; };
+		49FE78F126145ADB003944EC /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		49FE78F626145AE8003944EC /* SearchGitUserResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitUserResponseDTO.swift; sourceTree = "<group>"; };
+		49FE78FB26145AEE003944EC /* GitRepoListResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoListResponseDTO.swift; sourceTree = "<group>"; };
+		49FE790026145AF3003944EC /* GitOAuthResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitOAuthResponseDTO.swift; sourceTree = "<group>"; };
 		4C74897DA05807AD12EC4887 /* Pods_GitHubAPIExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubAPIExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F502081DF6EE3A937D591DA /* Pods-GitHubAPIExample-GitHubAPIExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubAPIExample-GitHubAPIExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-GitHubAPIExample-GitHubAPIExampleUITests/Pods-GitHubAPIExample-GitHubAPIExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6BE73329C70370FA6767FC18 /* Pods_GitHubAPIExample_GitHubAPIExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubAPIExample_GitHubAPIExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +231,8 @@
 		49FE7812261452D5003944EC /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				49FE78A5261459BB003944EC /* Repositories */,
+				49FE78A4261459BA003944EC /* Network */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -206,6 +240,10 @@
 		49FE7813261452D7003944EC /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				49FE78D626145A6E003944EC /* AA */,
+				49FE78A3261459B7003944EC /* UseCases */,
+				49FE78A2261459B6003944EC /* Repositories */,
+				49FE78A1261459B4003944EC /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -326,6 +364,80 @@
 				49FE787426145830003944EC /* BaseUINavigationController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		49FE78A1261459B4003944EC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78C726145A48003944EC /* GitUserEntity.swift */,
+				49FE78CC26145A4E003944EC /* GitRepoEntiry.swift */,
+				49FE78D126145A55003944EC /* GitOAuthEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		49FE78A2261459B6003944EC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78B826145A18003944EC /* GitUserRepositoryDelegate.swift */,
+				49FE78BD26145A2D003944EC /* GitRepoRepositoryDelegate.swift */,
+				49FE78C226145A39003944EC /* GitOAuthRepositoryDelegate.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		49FE78A3261459B7003944EC /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78A6261459D4003944EC /* SearchGitUserUseCase.swift */,
+				49FE78AE261459F3003944EC /* FetchGitRepoListUseCase.swift */,
+				49FE78B3261459F9003944EC /* FetchGitOAuthUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		49FE78A4261459BA003944EC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78E126145A95003944EC /* API */,
+				49FE78E026145A93003944EC /* DTO */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		49FE78A5261459BB003944EC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78E226145AA2003944EC /* GitUserRepository.swift */,
+				49FE78E726145AAA003944EC /* GitRepoRepository.swift */,
+				49FE78EC26145AAF003944EC /* GitOAuthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		49FE78D626145A6E003944EC /* AA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AA;
+			sourceTree = "<group>";
+		};
+		49FE78E026145A93003944EC /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78F626145AE8003944EC /* SearchGitUserResponseDTO.swift */,
+				49FE78FB26145AEE003944EC /* GitRepoListResponseDTO.swift */,
+				49FE790026145AF3003944EC /* GitOAuthResponseDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		49FE78E126145A95003944EC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				49FE78F126145ADB003944EC /* GitHubAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		9627810B221DB38071DF4EB8 /* Pods */ = {
@@ -592,17 +704,31 @@
 				49FE787026145826003944EC /* BaseUITableViewCell.swift in Sources */,
 				49FE782826145657003944EC /* AppCoordinator.swift in Sources */,
 				49FE787F26145883003944EC /* UIViewController.swift in Sources */,
+				49FE790126145AF3003944EC /* GitOAuthResponseDTO.swift in Sources */,
+				49FE78CD26145A4E003944EC /* GitRepoEntiry.swift in Sources */,
 				49FE78542614571A003944EC /* SearchGitUserCellView.swift in Sources */,
 				49FE784A2614570C003944EC /* SearchGitUserViewController.swift in Sources */,
+				49FE78ED26145AAF003944EC /* GitOAuthRepository.swift in Sources */,
 				49FE783D261456EE003944EC /* GitUserSceneCoordinator.swift in Sources */,
 				49FE7898261458F1003944EC /* WebAPI.swift in Sources */,
+				49FE78E326145AA2003944EC /* GitUserRepository.swift in Sources */,
+				49FE78FC26145AEE003944EC /* GitRepoListResponseDTO.swift in Sources */,
 				49FE783326145686003944EC /* GitUserSceneDIContainer.swift in Sources */,
+				49FE78AF261459F3003944EC /* FetchGitRepoListUseCase.swift in Sources */,
 				49FE785E2614575B003944EC /* SearchGitUserCellViewModel.swift in Sources */,
+				49FE78B926145A18003944EC /* GitUserRepositoryDelegate.swift in Sources */,
+				49FE78D226145A55003944EC /* GitOAuthEntity.swift in Sources */,
 				49FE78842614588B003944EC /* UIColor.swift in Sources */,
 				49FE781E26145629003944EC /* Application.swift in Sources */,
+				49FE78F726145AE8003944EC /* SearchGitUserResponseDTO.swift in Sources */,
+				49FE78C826145A48003944EC /* GitUserEntity.swift in Sources */,
+				49FE78B4261459F9003944EC /* FetchGitOAuthUseCase.swift in Sources */,
 				49FE782E2614567B003944EC /* AppDIContainer.swift in Sources */,
+				49FE78E826145AAA003944EC /* GitRepoRepository.swift in Sources */,
 				49FE788926145891003944EC /* Reactive.swift in Sources */,
+				49FE78C326145A39003944EC /* GitOAuthRepositoryDelegate.swift in Sources */,
 				49A0B68426144E8900D0F8C5 /* AppDelegate.swift in Sources */,
+				49FE78F226145ADB003944EC /* GitHubAPI.swift in Sources */,
 				49FE78932614589E003944EC /* UserDefaults.swift in Sources */,
 				49FE788E26145897003944EC /* Error.swift in Sources */,
 				49FE78592614574C003944EC /* SearchGitUserViewModel.swift in Sources */,
@@ -612,7 +738,9 @@
 				49FE784526145701003944EC /* SearchGitUserView.swift in Sources */,
 				49FE786B26145821003944EC /* BaseSnapKitUIView.swift in Sources */,
 				49FE782326145641003944EC /* AppConfigs.swift in Sources */,
+				49FE78BE26145A2D003944EC /* GitRepoRepositoryDelegate.swift in Sources */,
 				49FE789D26145909003944EC /* ReachabilityManager.swift in Sources */,
+				49FE78A7261459D4003944EC /* SearchGitUserUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
