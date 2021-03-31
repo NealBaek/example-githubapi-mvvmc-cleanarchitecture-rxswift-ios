@@ -240,7 +240,6 @@
 		49FE7813261452D7003944EC /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				49FE78D626145A6E003944EC /* AA */,
 				49FE78A3261459B7003944EC /* UseCases */,
 				49FE78A2261459B6003944EC /* Repositories */,
 				49FE78A1261459B4003944EC /* Entities */,
@@ -413,13 +412,6 @@
 				49FE78EC26145AAF003944EC /* GitOAuthRepository.swift */,
 			);
 			path = Repositories;
-			sourceTree = "<group>";
-		};
-		49FE78D626145A6E003944EC /* AA */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AA;
 			sourceTree = "<group>";
 		};
 		49FE78E026145A93003944EC /* DTO */ = {
