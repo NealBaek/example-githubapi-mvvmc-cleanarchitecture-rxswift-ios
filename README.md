@@ -1,1 +1,1 @@
-# example-mvvmc-cleanarchitecture-rxswift-githubapi-ios
+## MVVM-C CleanArchitecture Rxswift Example w/ Github Api
